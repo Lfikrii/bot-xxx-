@@ -1,0 +1,1 @@
+ini adalah bot discord khusus server -xxx-
