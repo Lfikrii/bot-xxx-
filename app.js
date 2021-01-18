@@ -26,7 +26,7 @@ client.on('message', message => {
   }
     
   if(message.content === '//help'){
-    message.channel.send('```//link = untuk mengambil link server -xxx-``` ```//ping = pingpong``` ```//say = menyuruh bot mengatakan sesuatu``` ```//sayd = sama dengan say tapi menghapus perintah anda```')
+    message.channel.send('```//link = untuk mengambil link server -xxx-``` ```//ping = pingpong``` ```//say = menyuruh bot mengatakan sesuatu``` ```//dsay = sama dengan say tapi menghapus perintah anda```')
   }
   
   //cmd ping
@@ -44,6 +44,14 @@ message.edit(`:ping_pong: Pong! kamu membutuhkan waktu **${(end - start)}**ms!`)
   if(message.content.startsWith(`${prefix}say`)) {
     var text = message.content.split(' ').slice(1).join(' ')
     if(!text) return message.reply('Tolong beri aku kata kata!')
+    message.channel.send(text)
+  }
+  
+  //cmd say tapi delete
+  if(message.content.startsWith(`${prefix}dsay`)) {
+    message.delete()
+    var text = message.content.split(' ').slice(1).join(' ')
+    if(!text) return message.reply('Tolong beri aku kata-kata!!!!!!')
     message.channel.send(text)
   }
  
