@@ -40,7 +40,6 @@ message.edit(`:ping_pong: Pong! kamu membutuhkan waktu **${(end - start)}**ms!`)
   }
   
   
-  
   //cmd say biasa
   if(message.content.startsWith(`${prefix}say`)) {
     var text = message.content.split(' ').slice(1).join(' ')
