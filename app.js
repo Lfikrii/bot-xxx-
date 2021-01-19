@@ -26,7 +26,7 @@ client.on('message', message => {
   }
     
   if(message.content === '//help'){
-    message.channel.send('```//link = untuk mengambil link server -xxx-``` ```//ping = pingpong``` ```//say = menyuruh bot mengatakan sesuatu``` ```//dsay = sama dengan say tapi menghapus perintah anda``` ```//1wangy = wangy wangy kan waifu anda``` ```//2wangy = membuat text untuk mengakui anda adalah seorang SIMP``` ```//3wangy = membuat text untuk crooottt dengan waifu anda```')
+    message.channel.send('```//link = untuk mengambil link server -xxx-``` ```//ping = pingpong``` ```//say = menyuruh bot mengatakan sesuatu``` ```//dsay = sama dengan say tapi menghapus perintah anda``` ```//1wangy = wangy wangy kan waifu anda``` ```//2wangy = membuat text untuk mengakui anda adalah seorang SIMP``` ```//3wangy = membuat text untuk nganu dengan waifu anda``` ```//4wangy = membuat text untuk croott dengan waifu anda```')
   }
   
   //cmd ping
@@ -68,16 +68,22 @@ message.edit(`:ping_pong: Pong! kamu membutuhkan waktu **${(end - start)}**ms!`)
     message.delete()
     var text = message.content.split(' ').slice(1).join(' ')
     if(!text) return message.reply('Tolong beri aku nama untuk memberitahu anda seorang SIMP')
-    message.channel.send(`Buruan, panggil gue SIMP, ato BAPERAN. ini MURNI PERASAAN GUE. Gue pengen genjot bareng **${(text)}**. Ini seriusan, suaranya yang imut, mukanya yang cantik, apalagi badannya yang aduhai ningkatin gairah gue buat genjot $name. Setiap lapisan kulitnya pengen gue jilat. Saat gue mau crot, gue bakal moncrot sepenuh hati, bisa di perut, muka, badan, teteknya, sampai lubang burit pun bakal gue crot sampai puncak klimaks. Gue bakal meluk dia abis gue moncrot, lalu nanya gimana kabarnya, ngrasain enggas bareng saat telanjang. Dia bakal bilang kalau genjotan gue mantep dan nyatain perasaannya ke gue, bilang kalo dia cinta ama gue. Gue bakal bilang balik seberapa gue cinta ama dia, dan dia bakal kecup gue di pipi. Terus kita ganti pakaian dan ngabisin waktu nonton film, sambil pelukan ama makan hidangan favorit. Gue mau **${(text)}** jadi pacar, pasangan, istri, dan idup gue. Gue cinta dia dan ingin dia jadi bagian tubuh gue. Lo kira ini copypasta? Kagak cok. Gue ngetik tiap kata nyatain prasaan gue. Setiap kali elo nanya dia siapa, denger ini baik-baik : DIA ISTRI GUE. Gue sayang **${(text)}**, dan INI MURNI PIKIRAN DAN PERASAAN GUE`)
+    message.channel.send(`Buruan, panggil gue SIMP, ato BAPERAN. ini MURNI PERASAAN GUE. Gue pengen genjot bareng **${(text)}**. Ini seriusan, suaranya yang imut, mukanya yang cantik, apalagi badannya yang aduhai ningkatin gairah gue buat genjot **${(text)}**. Setiap lapisan kulitnya pengen gue jilat. Saat gue mau crot, gue bakal moncrot sepenuh hati, bisa di perut, muka, badan, teteknya, sampai lubang burit pun bakal gue crot sampai puncak klimaks. Gue bakal meluk dia abis gue moncrot, lalu nanya gimana kabarnya, ngrasain enggas bareng saat telanjang. Dia bakal bilang kalau genjotan gue mantep dan nyatain perasaannya ke gue, bilang kalo dia cinta ama gue. Gue bakal bilang balik seberapa gue cinta ama dia, dan dia bakal kecup gue di pipi. Terus kita ganti pakaian dan ngabisin waktu nonton film, sambil pelukan ama makan hidangan favorit. Gue mau **${(text)}** jadi pacar, pasangan, istri, dan idup gue. Gue cinta dia dan ingin dia jadi bagian tubuh gue. Lo kira ini copypasta? Kagak cok. Gue ngetik tiap kata nyatain prasaan gue. Setiap kali elo nanya dia siapa, denger ini baik-baik : DIA ISTRI GUE. Gue sayang **${(text)}**, dan INI MURNI PIKIRAN DAN PERASAAN GUE`)
   }
   
   //cmd 3wangy
   if(message.content.startsWith(`${prefix}3wangy`)) {
     message.delete()
     var text = message.content.split(' ').slice(1).join(' ')
-    if(!text) return message.reply('Tolong beri aku nama untuk di croottt')
-    message.channel.send(`GW BENAR-BENAR PENGEN JILATI KAKI **${(text)}** GW PENGEN BANGET MENJILAT SETIAP BAGIAN KAKINYA SAMPAI AIR LIUR GW BERCUCURAN KAYAK AIR KERINGAT LALU NGENOD DENGANNYA SETIAP HARI SAMPAI TUBUH KITA MATI RASA YA TÜHAN. GW INGIN MEMBUAT ANAK-ANAK DENGAN $name SEBANYAK SATU TÌM SEPAK BOLA DAN MEMBUAT SATU TIM SEPAK BOLA LAINNYA UNTUK MELAWAN ANAK-ANAK TIM SEPAK BOLA PERTAMA GW YANG GW BUAT SAMA $name GW PENGEN MASUK KE SETIAP LUBANG TUBUHNYA, MAU ITU LUBANG HIDUNG, LUBANG TELINGA, RONGGA MATA MAUPUN PUSAR, KECUALI PORI-PORI KULIT. KEMUDIAN GW AKAN MENJADIKANNYA MANUSIA YANG TIDAK BISA HIDUP KALO TIDAK GW KENTOG SETIAP HARI. DAN KALAU GUA DISEPONG GUA RELA KONTL GUA PUTUS.`)
+    if(!text) return message.reply('Tolong beri aku nama untuk nganu')
+    message.channel.send(`GW BENAR-BENAR PENGEN JILATI KAKI **${(text)}** GW PENGEN BANGET MENJILAT SETIAP BAGIAN KAKINYA SAMPAI AIR LIUR GW BERCUCURAN KAYAK AIR KERINGAT LALU NGENOD DENGANNYA SETIAP HARI SAMPAI TUBUH KITA MATI RASA YA TÜHAN. GW INGIN MEMBUAT ANAK-ANAK DENGAN **${(text)}** SEBANYAK SATU TÌM SEPAK BOLA DAN MEMBUAT SATU TIM SEPAK BOLA LAINNYA UNTUK MELAWAN ANAK-ANAK TIM SEPAK BOLA PERTAMA GW YANG GW BUAT SAMA **${(text)}** GW PENGEN MASUK KE SETIAP LUBANG TUBUHNYA, MAU ITU LUBANG HIDUNG, LUBANG TELINGA, RONGGA MATA MAUPUN PUSAR, KECUALI PORI-PORI KULIT. KEMUDIAN GW AKAN MENJADIKANNYA MANUSIA YANG TIDAK BISA HIDUP KALO TIDAK GW KENTOG SETIAP HARI. DAN KALAU GUA DISEPONG GUA RELA KONTL GUA PUTUS.`)
+  }
+  
+  if(message.content.startsWith(`${prefix}4wangy`)) {
+    message.delete()
+    var text = message.content.split(' ').slice(1).join(' ')
+    if(!text) return message.reply('Tolong beri nama untuk croott')
+    message.channel.send(`BUKA BAJU **${(text)}** LANGSUNG CEPLOK CEPLOK CEPLOK CEPLOK CEPLOK CEPLOK CEPLOK CEPLOK CEPLOK CROT CEPLOK CEPLOK CEPLOK CEPLOK CROT CROT CEPLOK CEPLOK CEPLOK CEPLOK CEPLOK CEPLOK CEPLOK CEPLOK CEPLOK CROT CEPLOK CEPLOK CEPLOK CROT CEPLOK CEPLOK CEPLOK CEPLOK CEPLOK CEPLOK CEPLOK CEPLOK CEPLOK CROT CEPLOK CEPLOK CEPLOK CEPLOK CROTCEPLOK CEPLOK CEPLOK CEPLOK CEPLOK CEPLOK CEPLOK CEPLOK CEPLOK CROT CEPLOK CEPLOK CEPLOK CEPLOK CROT CEPLOK CEPLOK CEPLOK CEPLOK CEPLOK CEPLOK CEPLOK CEPLOK CEPLOK CROT CEPLOK CEPLOK CEPLOK CEPLOK CROTCEPLOK CEPLOK CEPLOK CEPLOK CEPLOK CEPLOK CEPLOK CEPLOK CEPLOK CROT CEPLOK CEPLOK CEPLOK CEPLOK CROT MONNCROOOTOOOOOOOOOOOOOOOOOOOOOOO`)
   }
  
 })
-
